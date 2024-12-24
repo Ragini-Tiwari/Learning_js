@@ -257,3 +257,32 @@
   // 3. 2 - HEADERS_RECEIVED -- send() has been called, and headers and status are available . 
   // 4. 3 - LOADING -- Downloading: responsetext holds partial data.
   // 5. 4 - DONE -- The operation is complete.
+
+  //+++++++++++Promises++++++++++++++++++++++++++++++++++++++++++++
+  // the promise object represents the eventual completion (or failure) of an asynchronous operation and its resulting value.
+   // three states : pending , fulfilled, rejected .
+   // Q and bluebird library 
+   //const promiseOne = new Promise(function(resolve, reject){
+    // do an async task
+    //db calls, cryptography, network
+    //setTimeout(function(){
+     // console.log("asyn task is completed");
+      //resolve()
+    //}, 1000)
+   //})
+   //promiseOne.then(function(){
+    //console.log("promise consumed");
+   //})
+
+   //asyncAwait, abortcontroller
+    //++++++++++++++++++++fetch++++++++++++++++++++++++++++++++++++++++++++++
+    // fetch() - the global fetch() method starts the process of fetching a resource from the network, returning a promise which is fulfilled once the resource is available.
+    // a fetch() promise only rejects when a network error is encountered(which is usuallly when thre's a permission issue or similar)
+    // A ftech() promise does not reject on http errors(404, etc). instead , a then() handler must check the Response.ok and/or Response.status properties.
+    // The fetch() method is controlled by the connect-src directive of content security policy rather than the directive of the resources it's retrieving.
+
+    //+++++++++++classes & objects+++++++++++++++++++++++++++++++++++++++++++
+    // js is a prototyped based language , and its  classes are primarily syntactic sugar over existing prototype-based inheritance mechanism.
+    //object - collection of properties and methods.
+    // parts of OOP : constructor function, prototype, classes, instances (new, this)
+    
