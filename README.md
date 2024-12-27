@@ -1,1 +1,1 @@
-# This is the module javascript 
+# This is the javascript module  
